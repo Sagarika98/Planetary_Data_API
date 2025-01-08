@@ -1,0 +1,72 @@
+/* Make the navbar full width with a background color */
+.navbar {
+  background-color: #333; /* Dark background */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 80px; /* Adjust the height as needed */
+  width: 100%; /* Make the navbar take up the full width */
+  padding: 10px;
+}
+
+/* Flexbox for the logo and text */
+.navbar-content {
+  display: flex;
+  align-items: center; /* Vertically center the logo and text */
+}
+
+/* Styling for the logo */
+.navbar-logo {
+  width: 50px; /* Adjust the logo size */
+  height: auto;
+  margin-right: 15px; /* Add spacing between the logo and text */
+}
+
+/* Styling for the heading */
+h1 {
+  font-size: 24px;
+  color: white; /* Ensure the text is white for contrast */
+  margin: 0; /* Remove default margin from the h1 */
+}
+
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.navbar-menu li {
+  margin: 0 15px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-menu a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-menu li {
+    margin: 10px 0;
+  }
+}

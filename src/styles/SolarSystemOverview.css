@@ -1,0 +1,105 @@
+/* src/components/SolarSystemOverview.css */
+
+/* .solar-system-overview {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.solar-system-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.overview-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.overview-content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.overview-content p {
+  font-size: 1.2em;
+}
+   */
+
+
+
+.solar-system-overview {
+    text-align: center;
+    padding: 10px;
+    /* width: auto; */
+  }
+.solar-system-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  opacity: 1;
+}
+.overview-content h2 {
+  font-size: 45px
+} 
+.overview-content p {
+  font-size:20px ;
+}
+
+.intro {
+  margin-bottom: 30px;
+}
+
+.sun-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sun-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.sun-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sun-description {
+  flex: 1;
+  padding: 20px;
+}
+
+.sun-description h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.sun-description p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .sun-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .sun-image, .sun-description {
+    flex: none;
+    width: 100%;
+  }
+  }
